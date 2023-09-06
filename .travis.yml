@@ -5,3 +5,4 @@ language: shell
 install: skip
 #check3
 script: false
+Initiaiting build as a collaborator
