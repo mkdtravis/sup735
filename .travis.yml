@@ -2,7 +2,7 @@
 os: linux
 dist: jammy
 language: go
-go: stable
+go: 1.22.3
 install: skip
 #check3
 sleep: 1
