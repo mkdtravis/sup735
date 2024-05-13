@@ -1,8 +1,10 @@
 #test12345
 os: linux
-dist: focal
-language: shell
+dist: jammy
+language: go
+go: 1.22.3
 install: skip
 #check3
-script: false
+script: 
+  - go version
 #Initiaiting build as a collaborator -2
