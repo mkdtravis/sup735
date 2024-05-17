@@ -1,8 +1,8 @@
 #test12345
 os: linux
-dist: focal
 language: shell
-install: skip
+#install: skip
 #check3
-script: false
+script:
+  - echo "Hello world!"
 #Initiaiting build as a collaborator -2
