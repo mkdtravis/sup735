@@ -5,5 +5,5 @@ language: shell
 #install: skip
 #check3
 script:
-  - echo "Hello world!"
+  sudo apt-get update -qq
 #Initiaiting build as a collaborator -2
