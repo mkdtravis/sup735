@@ -6,9 +6,5 @@ language: shell
 #check3
 script:
   - sudo apt-get update -qq  # Update package lists quietly
-  - sudo apt-get install -y -qq \
-      btrfs-progs git go-md2man iptables libassuan-dev libc6-dev \
-      libdevmapper-dev libglib2.0-dev libgpgme-dev libgpg-error-dev \
-      libprotobuf-dev libprotobuf-c-dev libseccomp-dev libselinux1-dev \
-      libsystemd-dev pkg-config runc uidmap
+  - sudo apt-get install -y -qq btrfs-progs
 #Initiaiting build as a collaborator -2
