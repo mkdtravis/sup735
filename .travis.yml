@@ -1,6 +1,6 @@
 #test12345
 os: linux
-dist: focal
+dist: bionic
 language: shell
 #install: skip
 #check3
